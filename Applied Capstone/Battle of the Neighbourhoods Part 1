@@ -1,1 +1,30 @@
-Introduction/Business Problem: Currently due to covid
+Introduction/Business Problem: 
+  Currently due to Covid-19 many restaurants and stores (regardless of size) have suffered major financial losses due to
+  restrictions placed on the community to stay inside and be safe. Moreover, large franchises and chains are looking to close down
+  some of their stores to cope for the losses. Starbucks recently announced that they will potentially close up to 200 stores 
+  across Canada. Although they have recently begun to reopen their stores Starbucks is still pressing forward with this plan and closely
+  monitoring their businesses. As a result, this project will look at which stores should Starbucks close. As I live near the Toronto area,
+  I will be focusing my analysis within that geographical location.
+  
+  The criteria will be based on:
+    1. Population density of each neighbourhood
+    2. Average age of the neighbourhood looking for (20s - 50s)
+    3. Median Salary 
+    4. Amount of competitors nearby (Coffee Shops tagged by Foursquare API)
+    
+   With these criteria in place we will look to analyze which shops should Starbucks close for cost efficiency purposes.
+
+Data:
+  The necessary data will come from several websites such as:
+   City of Toronto Neighbourhood Profiles:
+   https://www.toronto.ca/city-government/data-research-maps/neighbourhoods-communities/neighbourhood-profiles/
+   
+   Wikipedia for Toronto Boroughs:
+   https://en.wikipedia.org/wiki/List_of_city-designated_neighbourhoods_in_Toronto
+   
+   Foursquare API:
+   https://developer.foursquare.com
+   
+   The neighbourhood profiles will provide us the demographic details for the criteria to be assessed. Wikipedia will allow for 
+   the neighbourhood details to be clustered into a map. Foursquare API will allow us to locate where the Starbucks are in Toronto and 
+   general competitors.
